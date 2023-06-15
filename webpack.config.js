@@ -16,4 +16,8 @@ module.exports = {
       buffer: require.resolve("buffer"),
     },
   },
+  devServer: {
+    inline:true,
+    port: 8000
+  },
 };
